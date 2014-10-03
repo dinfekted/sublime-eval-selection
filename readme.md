@@ -33,3 +33,8 @@ or create plugins on top of it.
 |-------------------------|--------------------|----------------------------------------|
 | Evaluate selected code  | alt+`              | EvalSelection: Evaluate selection      |
 | Show evaluation history | ctrl+alt+`         | EvalSelection: Show evaluation history |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-folder-files
