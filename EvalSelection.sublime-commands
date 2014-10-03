@@ -1,0 +1,13 @@
+[
+
+  {
+    "caption": "EvalSelection: Evaluate selection",
+    "command": "eval_selection"
+  },
+
+  {
+    "caption": "EvalSelection: Show evaluation history",
+    "command": "show_eval_selection_history"
+  },
+
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "keys": ["alt+`"],
+    "command": "eval_selection"
+  },
+  {
+    "keys": ["ctrl+alt+`"],
+    "command": "show_eval_selection_history"
+  },
+]
