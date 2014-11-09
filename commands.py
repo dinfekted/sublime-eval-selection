@@ -1,8 +1,14 @@
 import sublime
 import sublime_plugin
 
-from EvalSelection import eval_selection
-from FolderFiles.folder_files import FolderFiles
+try:
+  from EvalSelection import eval_selection
+  from FolderFiles.folder_files import FolderFiles
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "EvalSelection plugin for installation instructions; to disable this " +
+   "message remove this plugin")
+
 
 class EvalSelection(sublime_plugin.TextCommand):
   def run(self, edit):

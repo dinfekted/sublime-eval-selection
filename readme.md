@@ -7,7 +7,7 @@ study sublime api.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-eval-selection/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/eval_selection.gif "Demo")
 
 
 ### Installation
@@ -37,4 +37,4 @@ or create plugins on top of it.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-folder-files
+* [FolderFiles](https://github.com/shagabutdinov/sublime-folder-files)

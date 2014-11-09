@@ -1,11 +1,15 @@
 import sublime
 import sublime_plugin
-
-from FolderFiles.folder_files import FolderFiles
-
 import os
 from os import path
 import time
+
+try:
+  from FolderFiles.folder_files import FolderFiles
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "EvalSelection plugin for installation instructions; to disable this " +
+   "message remove this plugin")
 
 def get_history_path():
   history_path = sublime.packages_path() + '/EvalSelection/history'

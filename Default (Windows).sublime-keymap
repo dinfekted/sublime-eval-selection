@@ -1,10 +1,16 @@
 [
   {
     "keys": ["alt+`"],
-    "command": "eval_selection"
+    "command": "eval_selection",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
   {
     "keys": ["ctrl+alt+`"],
-    "command": "show_eval_selection_history"
+    "command": "show_eval_selection_history",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 ]
