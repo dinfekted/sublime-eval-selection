@@ -4,10 +4,11 @@ import sublime_plugin
 try:
   from EvalSelection import eval_selection
   from FolderFiles.folder_files import FolderFiles
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "EvalSelection plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 
 class EvalSelection(sublime_plugin.TextCommand):
